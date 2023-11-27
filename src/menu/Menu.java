@@ -22,12 +22,20 @@ public class Menu {
 		System.out.println("            2 - LISTAR TODOS OS CARROS               ");
 		System.out.println("            3 - APAGAR CARRO do estoque              ");
 		System.out.println("            4 - COMPRAR CARRO                        ");
+		System.out.println("            5 - SAIR                                 ");
 		System.out.println("                                                     ");
 		System.out.println("*****************************************************");
 		System.out.println("                                                     ");
 		System.out.println("Entre com a opção desejada:                          ");
 		System.out.println("                                                     ");
 		opcao = leia.nextInt();
+		
+		
+		if (opcao == 5) {
+			System.out.println("\nVOLTE SEMPRE A MAIOR LOJA DE CARROS DE SÃO PAULO!");
+			leia.close();
+			System.exit(0);
+		}
 		
 		switch (opcao) {
 		
